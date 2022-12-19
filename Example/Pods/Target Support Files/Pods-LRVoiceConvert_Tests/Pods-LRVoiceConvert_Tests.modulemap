@@ -1,0 +1,6 @@
+framework module Pods_LRVoiceConvert_Tests {
+  umbrella header "Pods-LRVoiceConvert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

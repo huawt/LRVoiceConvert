@@ -1,0 +1,16 @@
+PODS:
+  - LRVoiceConvert (0.0.1)
+
+DEPENDENCIES:
+  - LRVoiceConvert (from `../`)
+
+EXTERNAL SOURCES:
+  LRVoiceConvert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRVoiceConvert: 0b82c89854f8ab46172bdefa6ab1ee75ce09aea2
+
+PODFILE CHECKSUM: de065d2c2cf81a6a85824ede9c282ee4788fc3a7
+
+COCOAPODS: 1.11.3

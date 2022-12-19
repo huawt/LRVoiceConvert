@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E47620C0FE7EEF1E174F869B8574D69 /* Pods-LRVoiceConvert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B0819AD1F4F951756D0A198DED6174 /* Pods-LRVoiceConvert_Tests-dummy.m */; };
+		2B3C555D4E9AB7EA1DEA0B18C3CB2E41 /* LRVoiceConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = E107AE0F4B3339AE1692B5FAAE335B7A /* LRVoiceConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38FE0E692513AC62AAE9AE637AD6B153 /* Pods-LRVoiceConvert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 327922BDD5BB3AC67FC6002AFDCB53E5 /* Pods-LRVoiceConvert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6B402CF0A756931769653AF0B8CF25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		94DE014271EC93EB11A3D505B60184A6 /* LRVoiceConvert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B6EC38225F598CA764B7000078B13C /* LRVoiceConvert-dummy.m */; };
+		9E9D5BCD0F5E7AA0D86D097300D0FD69 /* LRVoiceConvert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E9A735E6AEF932A05B24EEA618401F /* LRVoiceConvert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F242C3C12D8952BD914082F8B97C945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A877AE5777CAE8BD1CCECA7261DB4238 /* ConvertAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 188368D5D8AB7642EBC3110CFFF708B3 /* ConvertAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FC526F420B45E9DB9CAF65EABC64AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA3E5B9A736872EA4EFD0161A1FD1093 /* Pods-LRVoiceConvert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A54D22D275084B9EEC1B034EA72C8E9 /* Pods-LRVoiceConvert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA87C3ED13BB48978628A6271FE85B64 /* ConvertAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C25469C2BADF2DA5E6A2A2413172F0D /* ConvertAudioFile.m */; };
+		FD7D4ABB0864D3B626D3EF367B2CE32A /* Pods-LRVoiceConvert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48277DD32786F23CFD01768692765356 /* Pods-LRVoiceConvert_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C56F78C776FA18114B6C0C4C1E9692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE993D0D9F9FD90B37276CE8A307CAFB;
+			remoteInfo = "Pods-LRVoiceConvert_Example";
+		};
+		F21B4BE476724EC33FC80F3CAF1542E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1A3BFFDEAF9EB0CB93E720F2D33AF0B;
+			remoteInfo = LRVoiceConvert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055B009B6B33075741EBA81A724B0458 /* Pods-LRVoiceConvert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRVoiceConvert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		072E52C6A01FA2F3A1D482DE78EB0955 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lame.framework; path = LRVoiceConvert/Framework/Lame/lame.framework; sourceTree = "<group>"; };
+		0C4CF5AEE97060F9B86E203F1543090C /* Pods-LRVoiceConvert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRVoiceConvert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0CF4889241A91D3BF9F7F1C03E0C23A2 /* Pods-LRVoiceConvert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRVoiceConvert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1499053E14DC4B41E27D2A95D968D3D8 /* LRVoiceConvert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRVoiceConvert-prefix.pch"; sourceTree = "<group>"; };
+		165563056A0FC8E70B3A92E0E0923FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		188368D5D8AB7642EBC3110CFFF708B3 /* ConvertAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConvertAudioFile.h; path = LRVoiceConvert/Classes/ConvertAudioFile.h; sourceTree = "<group>"; };
+		1A54D22D275084B9EEC1B034EA72C8E9 /* Pods-LRVoiceConvert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRVoiceConvert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1C25469C2BADF2DA5E6A2A2413172F0D /* ConvertAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConvertAudioFile.m; path = LRVoiceConvert/Classes/ConvertAudioFile.m; sourceTree = "<group>"; };
+		1EB9E5578CF308D4365D00814511FAC7 /* LRVoiceConvert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRVoiceConvert-Info.plist"; sourceTree = "<group>"; };
+		20648EF5A33643ABC845013A5CB26EFA /* LRVoiceConvert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRVoiceConvert.debug.xcconfig; sourceTree = "<group>"; };
+		2128E2ABEC2157D5923940CF77BDFBAE /* Pods-LRVoiceConvert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRVoiceConvert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23B6EC38225F598CA764B7000078B13C /* LRVoiceConvert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRVoiceConvert-dummy.m"; sourceTree = "<group>"; };
+		2A91F5B114D552EE45830F054960FFC3 /* LRVoiceConvert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRVoiceConvert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		327922BDD5BB3AC67FC6002AFDCB53E5 /* Pods-LRVoiceConvert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRVoiceConvert_Example-umbrella.h"; sourceTree = "<group>"; };
+		404427F5ED77D7CE6F93DD5A0A2C3CEA /* LRVoiceConvert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRVoiceConvert.release.xcconfig; sourceTree = "<group>"; };
+		48277DD32786F23CFD01768692765356 /* Pods-LRVoiceConvert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRVoiceConvert_Example-dummy.m"; sourceTree = "<group>"; };
+		4B11D137CF14FB1F6BE692B5D0499F85 /* Pods-LRVoiceConvert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRVoiceConvert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		583B0FEAABE9A369CCAE84D520AB7625 /* Pods-LRVoiceConvert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRVoiceConvert_Tests-Info.plist"; sourceTree = "<group>"; };
+		61E9A735E6AEF932A05B24EEA618401F /* LRVoiceConvert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRVoiceConvert-umbrella.h"; sourceTree = "<group>"; };
+		6E5E175E77E5BF07955265DFFC98E233 /* Pods-LRVoiceConvert_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRVoiceConvert_Example"; path = Pods_LRVoiceConvert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B0819AD1F4F951756D0A198DED6174 /* Pods-LRVoiceConvert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRVoiceConvert_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B72311F6FE4DCF208457BD5AA15EAF5 /* LRVoiceConvert */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRVoiceConvert; path = LRVoiceConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82051D4447A6871C019B6D37F38E2722 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		91DD9F81720EF0DA61BF95935C383BE1 /* LRVoiceConvert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRVoiceConvert.modulemap; sourceTree = "<group>"; };
+		9689F3EDF3840D866F042865633A44FA /* Pods-LRVoiceConvert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRVoiceConvert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20DD57C04CFEC5BA94EE18B43BE067B /* Pods-LRVoiceConvert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRVoiceConvert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A39E65438F3C6F9FFD72713721C9FADB /* Pods-LRVoiceConvert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRVoiceConvert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7D0B05FA05AF2C2794E05E1B886D790 /* Pods-LRVoiceConvert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRVoiceConvert_Tests.modulemap"; sourceTree = "<group>"; };
+		C1BDA048447470CC4B543DB2BB7C8085 /* Pods-LRVoiceConvert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRVoiceConvert_Example.modulemap"; sourceTree = "<group>"; };
+		E107AE0F4B3339AE1692B5FAAE335B7A /* LRVoiceConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRVoiceConvert.h; path = LRVoiceConvert/Classes/LRVoiceConvert.h; sourceTree = "<group>"; };
+		E2224EC2B05E65B6EDE2F13B796C3F1D /* Pods-LRVoiceConvert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRVoiceConvert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA8BFA646690E6E11E52D0400800EA04 /* Pods-LRVoiceConvert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRVoiceConvert_Example-Info.plist"; sourceTree = "<group>"; };
+		FBD1DB7CCD5331731F74730BEC798463 /* Pods-LRVoiceConvert_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRVoiceConvert_Tests"; path = Pods_LRVoiceConvert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE0D452F3C7EE4EA4FF12A0AA68F6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6B402CF0A756931769653AF0B8CF25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7C6EF7F8DFD590242477CCEC7BF3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC526F420B45E9DB9CAF65EABC64AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F64ABD9A55336F4B498F0EEA29639CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F242C3C12D8952BD914082F8B97C945 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0950815D5C5BF03A44748D069E8CFE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				072E52C6A01FA2F3A1D482DE78EB0955 /* lame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AF0178AC15E90C37D615B6A9E23C2F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0BE1FE7306E7B94C7C8DA9CB40ACE2 /* LRVoiceConvert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		209599EA3B3FA57F9EB31D9DEBD84822 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A261F05FD44827A44446FE1011997B36 /* Pods-LRVoiceConvert_Example */,
+				AF65D9411BFE599A97CBB27A2D930954 /* Pods-LRVoiceConvert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D0BE1FE7306E7B94C7C8DA9CB40ACE2 /* LRVoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				188368D5D8AB7642EBC3110CFFF708B3 /* ConvertAudioFile.h */,
+				1C25469C2BADF2DA5E6A2A2413172F0D /* ConvertAudioFile.m */,
+				E107AE0F4B3339AE1692B5FAAE335B7A /* LRVoiceConvert.h */,
+				0950815D5C5BF03A44748D069E8CFE55 /* Frameworks */,
+				A0CCF979F7B645E66D6A49438F9F8753 /* Pod */,
+				6447604CB93B1FB433620705BEBC5592 /* Support Files */,
+			);
+			name = LRVoiceConvert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6447604CB93B1FB433620705BEBC5592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91DD9F81720EF0DA61BF95935C383BE1 /* LRVoiceConvert.modulemap */,
+				23B6EC38225F598CA764B7000078B13C /* LRVoiceConvert-dummy.m */,
+				1EB9E5578CF308D4365D00814511FAC7 /* LRVoiceConvert-Info.plist */,
+				1499053E14DC4B41E27D2A95D968D3D8 /* LRVoiceConvert-prefix.pch */,
+				61E9A735E6AEF932A05B24EEA618401F /* LRVoiceConvert-umbrella.h */,
+				20648EF5A33643ABC845013A5CB26EFA /* LRVoiceConvert.debug.xcconfig */,
+				404427F5ED77D7CE6F93DD5A0A2C3CEA /* LRVoiceConvert.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRVoiceConvert";
+			sourceTree = "<group>";
+		};
+		A0CCF979F7B645E66D6A49438F9F8753 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82051D4447A6871C019B6D37F38E2722 /* LICENSE */,
+				2A91F5B114D552EE45830F054960FFC3 /* LRVoiceConvert.podspec */,
+				165563056A0FC8E70B3A92E0E0923FEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A261F05FD44827A44446FE1011997B36 /* Pods-LRVoiceConvert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1BDA048447470CC4B543DB2BB7C8085 /* Pods-LRVoiceConvert_Example.modulemap */,
+				4B11D137CF14FB1F6BE692B5D0499F85 /* Pods-LRVoiceConvert_Example-acknowledgements.markdown */,
+				9689F3EDF3840D866F042865633A44FA /* Pods-LRVoiceConvert_Example-acknowledgements.plist */,
+				48277DD32786F23CFD01768692765356 /* Pods-LRVoiceConvert_Example-dummy.m */,
+				A20DD57C04CFEC5BA94EE18B43BE067B /* Pods-LRVoiceConvert_Example-frameworks.sh */,
+				EA8BFA646690E6E11E52D0400800EA04 /* Pods-LRVoiceConvert_Example-Info.plist */,
+				327922BDD5BB3AC67FC6002AFDCB53E5 /* Pods-LRVoiceConvert_Example-umbrella.h */,
+				0C4CF5AEE97060F9B86E203F1543090C /* Pods-LRVoiceConvert_Example.debug.xcconfig */,
+				E2224EC2B05E65B6EDE2F13B796C3F1D /* Pods-LRVoiceConvert_Example.release.xcconfig */,
+			);
+			name = "Pods-LRVoiceConvert_Example";
+			path = "Target Support Files/Pods-LRVoiceConvert_Example";
+			sourceTree = "<group>";
+		};
+		AF65D9411BFE599A97CBB27A2D930954 /* Pods-LRVoiceConvert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D0B05FA05AF2C2794E05E1B886D790 /* Pods-LRVoiceConvert_Tests.modulemap */,
+				055B009B6B33075741EBA81A724B0458 /* Pods-LRVoiceConvert_Tests-acknowledgements.markdown */,
+				2128E2ABEC2157D5923940CF77BDFBAE /* Pods-LRVoiceConvert_Tests-acknowledgements.plist */,
+				73B0819AD1F4F951756D0A198DED6174 /* Pods-LRVoiceConvert_Tests-dummy.m */,
+				583B0FEAABE9A369CCAE84D520AB7625 /* Pods-LRVoiceConvert_Tests-Info.plist */,
+				1A54D22D275084B9EEC1B034EA72C8E9 /* Pods-LRVoiceConvert_Tests-umbrella.h */,
+				0CF4889241A91D3BF9F7F1C03E0C23A2 /* Pods-LRVoiceConvert_Tests.debug.xcconfig */,
+				A39E65438F3C6F9FFD72713721C9FADB /* Pods-LRVoiceConvert_Tests.release.xcconfig */,
+			);
+			name = "Pods-LRVoiceConvert_Tests";
+			path = "Target Support Files/Pods-LRVoiceConvert_Tests";
+			sourceTree = "<group>";
+		};
+		C9E89D17FC6F6534372AC0CCD23E80FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B72311F6FE4DCF208457BD5AA15EAF5 /* LRVoiceConvert */,
+				6E5E175E77E5BF07955265DFFC98E233 /* Pods-LRVoiceConvert_Example */,
+				FBD1DB7CCD5331731F74730BEC798463 /* Pods-LRVoiceConvert_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0AF0178AC15E90C37D615B6A9E23C2F3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C9E89D17FC6F6534372AC0CCD23E80FE /* Products */,
+				209599EA3B3FA57F9EB31D9DEBD84822 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C83651FDE1C4B0CEFC926A6B0FE368F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A877AE5777CAE8BD1CCECA7261DB4238 /* ConvertAudioFile.h in Headers */,
+				2B3C555D4E9AB7EA1DEA0B18C3CB2E41 /* LRVoiceConvert.h in Headers */,
+				9E9D5BCD0F5E7AA0D86D097300D0FD69 /* LRVoiceConvert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D37E9E64830CC4FBC87E20BCC6AA6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E5B9A736872EA4EFD0161A1FD1093 /* Pods-LRVoiceConvert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01CE182EF709EEB5C653BDE6083279E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE0E692513AC62AAE9AE637AD6B153 /* Pods-LRVoiceConvert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		497919B43672648507F78C60F55A91E3 /* Pods-LRVoiceConvert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D2E42EF344EE0E79E5B12D9168DF14 /* Build configuration list for PBXNativeTarget "Pods-LRVoiceConvert_Tests" */;
+			buildPhases = (
+				B0D37E9E64830CC4FBC87E20BCC6AA6E /* Headers */,
+				77F6345A34BAAD603C13C847D1815B8F /* Sources */,
+				2F7C6EF7F8DFD590242477CCEC7BF3E0 /* Frameworks */,
+				1D14398BE21CFE0A1F52B5A813C25453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC39762FA6C04E35219FD0703DFADCA /* PBXTargetDependency */,
+			);
+			name = "Pods-LRVoiceConvert_Tests";
+			productName = Pods_LRVoiceConvert_Tests;
+			productReference = FBD1DB7CCD5331731F74730BEC798463 /* Pods-LRVoiceConvert_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE993D0D9F9FD90B37276CE8A307CAFB /* Pods-LRVoiceConvert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FBF01946AC8247D9C6BFBAF280B65F /* Build configuration list for PBXNativeTarget "Pods-LRVoiceConvert_Example" */;
+			buildPhases = (
+				E01CE182EF709EEB5C653BDE6083279E /* Headers */,
+				6AA4A7BC77CB66B05213074AE9C9BA1E /* Sources */,
+				3F64ABD9A55336F4B498F0EEA29639CA /* Frameworks */,
+				873BACD9074FEB9529FD5DA2A972CB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E153F6601CA0289BDD43C5B82C9DB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRVoiceConvert_Example";
+			productName = Pods_LRVoiceConvert_Example;
+			productReference = 6E5E175E77E5BF07955265DFFC98E233 /* Pods-LRVoiceConvert_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A3BFFDEAF9EB0CB93E720F2D33AF0B /* LRVoiceConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364582BC8B8F6E9A19B1A3F3B4AAB38A /* Build configuration list for PBXNativeTarget "LRVoiceConvert" */;
+			buildPhases = (
+				3C83651FDE1C4B0CEFC926A6B0FE368F /* Headers */,
+				DBA84C37FC60A05CB01977C57F0033B6 /* Sources */,
+				0DE0D452F3C7EE4EA4FF12A0AA68F6DD /* Frameworks */,
+				6A503FE7F686C6F682C69782D622AF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRVoiceConvert;
+			productName = LRVoiceConvert;
+			productReference = 7B72311F6FE4DCF208457BD5AA15EAF5 /* LRVoiceConvert */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C9E89D17FC6F6534372AC0CCD23E80FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1A3BFFDEAF9EB0CB93E720F2D33AF0B /* LRVoiceConvert */,
+				EE993D0D9F9FD90B37276CE8A307CAFB /* Pods-LRVoiceConvert_Example */,
+				497919B43672648507F78C60F55A91E3 /* Pods-LRVoiceConvert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D14398BE21CFE0A1F52B5A813C25453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A503FE7F686C6F682C69782D622AF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873BACD9074FEB9529FD5DA2A972CB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA4A7BC77CB66B05213074AE9C9BA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7D4ABB0864D3B626D3EF367B2CE32A /* Pods-LRVoiceConvert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F6345A34BAAD603C13C847D1815B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E47620C0FE7EEF1E174F869B8574D69 /* Pods-LRVoiceConvert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA84C37FC60A05CB01977C57F0033B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA87C3ED13BB48978628A6271FE85B64 /* ConvertAudioFile.m in Sources */,
+				94DE014271EC93EB11A3D505B60184A6 /* LRVoiceConvert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC39762FA6C04E35219FD0703DFADCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LRVoiceConvert_Example";
+			target = EE993D0D9F9FD90B37276CE8A307CAFB /* Pods-LRVoiceConvert_Example */;
+			targetProxy = D9C56F78C776FA18114B6C0C4C1E9692 /* PBXContainerItemProxy */;
+		};
+		F1E153F6601CA0289BDD43C5B82C9DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRVoiceConvert;
+			target = F1A3BFFDEAF9EB0CB93E720F2D33AF0B /* LRVoiceConvert */;
+			targetProxy = F21B4BE476724EC33FC80F3CAF1542E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F6DC4DDADEE38BA09DB99D2D07C78DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39E65438F3C6F9FFD72713721C9FADB /* Pods-LRVoiceConvert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRVoiceConvert_Tests/Pods-LRVoiceConvert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRVoiceConvert_Tests/Pods-LRVoiceConvert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8576844B7E61ECA08AE4975911A14287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF4889241A91D3BF9F7F1C03E0C23A2 /* Pods-LRVoiceConvert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRVoiceConvert_Tests/Pods-LRVoiceConvert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRVoiceConvert_Tests/Pods-LRVoiceConvert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94C66D74BC1276E7C53B83DFABA30056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20648EF5A33643ABC845013A5CB26EFA /* LRVoiceConvert.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRVoiceConvert/LRVoiceConvert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRVoiceConvert/LRVoiceConvert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRVoiceConvert/LRVoiceConvert.modulemap";
+				PRODUCT_MODULE_NAME = LRVoiceConvert;
+				PRODUCT_NAME = LRVoiceConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA9CB0D15F3133C67D0AF86038E0C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404427F5ED77D7CE6F93DD5A0A2C3CEA /* LRVoiceConvert.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRVoiceConvert/LRVoiceConvert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRVoiceConvert/LRVoiceConvert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRVoiceConvert/LRVoiceConvert.modulemap";
+				PRODUCT_MODULE_NAME = LRVoiceConvert;
+				PRODUCT_NAME = LRVoiceConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E832C3B440EEB345FDA85C0F965EB7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2224EC2B05E65B6EDE2F13B796C3F1D /* Pods-LRVoiceConvert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRVoiceConvert_Example/Pods-LRVoiceConvert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRVoiceConvert_Example/Pods-LRVoiceConvert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2F2A2953341BCFD7EF8BC64CE33F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4CF5AEE97060F9B86E203F1543090C /* Pods-LRVoiceConvert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRVoiceConvert_Example/Pods-LRVoiceConvert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRVoiceConvert_Example/Pods-LRVoiceConvert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364582BC8B8F6E9A19B1A3F3B4AAB38A /* Build configuration list for PBXNativeTarget "LRVoiceConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C66D74BC1276E7C53B83DFABA30056 /* Debug */,
+				BA9CB0D15F3133C67D0AF86038E0C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D2E42EF344EE0E79E5B12D9168DF14 /* Build configuration list for PBXNativeTarget "Pods-LRVoiceConvert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8576844B7E61ECA08AE4975911A14287 /* Debug */,
+				7F6DC4DDADEE38BA09DB99D2D07C78DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FBF01946AC8247D9C6BFBAF280B65F /* Build configuration list for PBXNativeTarget "Pods-LRVoiceConvert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2F2A2953341BCFD7EF8BC64CE33F67 /* Debug */,
+				E832C3B440EEB345FDA85C0F965EB7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

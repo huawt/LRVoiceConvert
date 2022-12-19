@@ -1,6 +1,6 @@
 # LRVoiceConvert
 
-[![CI Status](https://img.shields.io/travis/WinTer/LRVoiceConvert.svg?style=flat)](https://travis-ci.org/WinTer/LRVoiceConvert)
+[![CI Status](https://img.shields.io/travis/huawt/LRVoiceConvert.svg?style=flat)](https://travis-ci.org/huawt/LRVoiceConvert)
 [![Version](https://img.shields.io/cocoapods/v/LRVoiceConvert.svg?style=flat)](https://cocoapods.org/pods/LRVoiceConvert)
 [![License](https://img.shields.io/cocoapods/l/LRVoiceConvert.svg?style=flat)](https://cocoapods.org/pods/LRVoiceConvert)
 [![Platform](https://img.shields.io/cocoapods/p/LRVoiceConvert.svg?style=flat)](https://cocoapods.org/pods/LRVoiceConvert)
@@ -22,7 +22,7 @@ pod 'LRVoiceConvert'
 
 ## Author
 
-WinTer, ghost263sky@163.com
+huawt, ghost263sky@163.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module LRVoiceConvert {
+  umbrella header "LRVoiceConvert-umbrella.h"
+
+  export *
+  module * { export * }
+}
