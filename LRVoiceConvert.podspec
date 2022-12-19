@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRVoiceConvert'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of LRVoiceConvert.'
   s.description      = 'A short description of LRVoiceConvert.'
   s.homepage         = 'https://github.com/huawt/LRVoiceConvert'

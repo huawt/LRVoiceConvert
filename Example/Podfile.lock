@@ -1,5 +1,5 @@
 PODS:
-  - LRVoiceConvert (0.0.1)
+  - LRVoiceConvert (0.0.2)
 
 DEPENDENCIES:
   - LRVoiceConvert (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRVoiceConvert: 0b82c89854f8ab46172bdefa6ab1ee75ce09aea2
+  LRVoiceConvert: d6a0412d21cf1509b6beb6dfd51364af8aea8b56
 
 PODFILE CHECKSUM: de065d2c2cf81a6a85824ede9c282ee4788fc3a7
 
