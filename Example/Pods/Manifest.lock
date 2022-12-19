@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRVoiceConvert: d6a0412d21cf1509b6beb6dfd51364af8aea8b56
+  LRVoiceConvert: 8f01097370c35aa34dc04710ab02c1dcf6456c60
 
 PODFILE CHECKSUM: de065d2c2cf81a6a85824ede9c282ee4788fc3a7
 

@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source_files = 'LRVoiceConvert/Classes/**/*'
   s.vendored_frameworks = 'LRVoiceConvert/Framework/**/*.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 armv7s x86_64 arm64' }
+#  s.user_target_xcconfig = { 'VALID_ARCHS' => 'armv7 armv7s x86_64 arm64' }
 end

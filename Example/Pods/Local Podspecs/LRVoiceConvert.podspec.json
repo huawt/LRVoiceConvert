@@ -19,5 +19,8 @@
     "ios": "12.0"
   },
   "source_files": "LRVoiceConvert/Classes/**/*",
-  "vendored_frameworks": "LRVoiceConvert/Framework/**/*.framework"
+  "vendored_frameworks": "LRVoiceConvert/Framework/**/*.framework",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "armv7 armv7s x86_64 arm64"
+  }
 }
