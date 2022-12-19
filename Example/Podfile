@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LRVoiceConvert_Example' do
+  pod 'LRVoiceConvert', :path => '../'
+
+  target 'LRVoiceConvert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
