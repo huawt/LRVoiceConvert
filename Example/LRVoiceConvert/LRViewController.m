@@ -7,6 +7,7 @@
 //
 
 #import "LRViewController.h"
+#import <LRVoiceConvert/LRVoiceConvert.h>
 
 @interface LRViewController ()
 
